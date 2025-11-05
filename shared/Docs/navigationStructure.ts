@@ -491,10 +491,6 @@ const sectionHome: (NavGroup | NavLink)[] = [
             title: "Neon",
             href: `/docs/features/events-triggers/neon`,
           },
-          {
-            title: "Prisma Pulse",
-            href: `/docs/features/events-triggers/prisma-pulse`,
-          },
           { title: "Use cases" },
           {
             title: "Handle Clerk webhooks",
@@ -891,6 +887,10 @@ const sectionHome: (NavGroup | NavLink)[] = [
   {
     title: "AI",
     links: [
+      {
+        title: "Dev Server MCP",
+        href: "/docs/ai-dev-tools/mcp",
+      },
       {
         title: "AgentKit",
         href: "https://agentkit.inngest.com",
